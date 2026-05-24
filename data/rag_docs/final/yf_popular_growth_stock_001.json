@@ -1,0 +1,63 @@
+{
+  "doc_id": "yf_popular_growth_stock_001",
+  "title": "국내 투자자 인기 해외자산에서 나타나는 성장주 개별주 구조",
+  "category": "개별주식",
+  "level": 3,
+  "asset_group": "growth_stock",
+  "keywords": [
+    "성장주",
+    "개별주식",
+    "변동성",
+    "집중투자",
+    "미래 기대"
+  ],
+  "related_data": [
+    "yfinance",
+    "popular_asset_mapping"
+  ],
+  "related_portfolio_features": [
+    "growth_stock 유형 자산 포함",
+    "해외자산 포함",
+    "국내 투자자 인기 해외자산과 유사한 구조"
+  ],
+  "related_quiz_tags": [
+    "성장주",
+    "개별주식",
+    "변동성",
+    "집중도"
+  ],
+  "content": "이 문서는 대한민국 투자자 인기 해외자산 TOP 50에서 'growth_stock' 유형으로 분류된 자산을 바탕으로 만든 학습 문서이다. 이 자산군에는 TOP 50 매핑 기준 2개 자산이 포함되어 있으며, 대표 티커는 TSLA, PLTR입니다. yfinance 가격 데이터 기준 최근 1년 평균 가격 변화율은 18.42%, 평균 연율화 변동성은 48.35%, 평균 최대낙폭은 -34.06%입니다. 이 자산군은 성장주, 개별주식, 변동성, 집중도 같은 개념을 학습할 때 활용할 수 있다. 특히 가격 변화율은 과거 가격 흐름을, 변동성은 가격이 얼마나 크게 흔들렸는지를, 최대낙폭은 특정 기간 동안 고점 대비 하락 경험을 이해하는 데 도움을 준다. 다만 이 데이터는 학습용 참고자료이며, 특정 종목이나 ETF의 좋고 나쁨을 판단하거나 미래 수익률을 예측하기 위한 자료가 아니다. Turini에서는 이 문서를 사용자의 포트폴리오에 포함된 자산군을 설명하고 관련 학습 주제와 퀴즈를 연결하는 용도로만 사용한다.",
+  "data_snapshot": {
+    "source": "yfinance",
+    "mapping_source": "korea_popular_assets_top50",
+    "asset_group": "growth_stock",
+    "asset_count": 2,
+    "tickers": [
+      "TSLA",
+      "PLTR"
+    ],
+    "top_assets": [
+      {
+        "rank": 10,
+        "ticker": "TSLA",
+        "name": "TESLA INC",
+        "amount": 370009917
+      },
+      {
+        "rank": 25,
+        "ticker": "PLTR",
+        "name": "PALANTIR TECHNOLOGIES INC CL A",
+        "amount": 197931911
+      }
+    ],
+    "latest_date": "2026-05-22",
+    "avg_return_1y": 0.1842,
+    "avg_annualized_volatility": 0.4835,
+    "avg_mdd": -0.3406,
+    "usage_note": "이 데이터는 자산군 구조와 리스크 개념을 이해하기 위한 학습용 참고자료이며 투자 판단이나 수익률 예측에 사용하지 않는다."
+  },
+  "safe_response_rule": "특정 종목, ETF, 자산의 매수·매도·보유 판단이나 미래 수익률 예측이 아니라 자산군 구조 설명과 학습 경로 추천에만 사용한다.",
+  "source": "yfinance",
+  "doc_type": "popular_asset_group_data_connection",
+  "updated_at": "2026-05-24"
+}

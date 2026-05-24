@@ -1,0 +1,44 @@
+{
+  "doc_id": "fred_connection_gdp_001",
+  "title": "GDP 흐름과 경제성장 이해",
+  "category": "시장환경",
+  "level": 2,
+  "keywords": [
+    "GDP",
+    "경제성장",
+    "국내총생산",
+    "경기 흐름",
+    "생산과 소비"
+  ],
+  "related_data": [
+    "GDP"
+  ],
+  "related_portfolio_features": [
+    "미국 ETF 비중 높음",
+    "주식형 자산 비중 높음",
+    "경기민감 자산 포함",
+    "장기 투자 학습"
+  ],
+  "related_quiz_tags": [
+    "GDP",
+    "경제성장",
+    "경기",
+    "미국경제"
+  ],
+  "content": "FRED의 GDP 데이터는 미국 경제의 생산 규모와 성장 흐름을 이해하는 데 활용할 수 있다. 최신 관측일은 2026-01-01이고, 최신값은 31856.257 billion dollars입니다. 1년 전보다 1814.144 billion dollars 높습니다. 추세 라벨은 '1년 전보다 상승'입니다. GDP는 경제성장률, 경기 흐름, 기업 활동, 소비와 투자 환경을 이해할 때 기본이 되는 지표이다. 포트폴리오 학습에서는 GDP를 통해 자산 가격을 예측하기보다, 경제 전체의 활동 수준이 어떤 의미를 가지는지 이해하는 데 초점을 둔다. 따라서 이 문서는 경제성장 개념을 설명하기 위한 것이며 특정 자산을 평가하거나 수익률을 예측하지 않는다.",
+  "data_snapshot": {
+    "source": "FRED",
+    "source_series_id": "GDP",
+    "latest_date": "2026-01-01",
+    "latest_value": 31856.257,
+    "unit_label": " billion dollars",
+    "change_1y": 1814.144,
+    "trend_label": "1년 전보다 상승",
+    "snapshot_text": "최신 관측일은 2026-01-01이고, 최신값은 31856.257 billion dollars입니다. 1년 전보다 1814.144 billion dollars 높습니다. 추세 라벨은 '1년 전보다 상승'입니다.",
+    "usage_note": "이 데이터는 경제 개념과 포트폴리오 구조를 이해하기 위한 학습용 참고자료이다. 특정 종목, ETF, 자산의 좋고 나쁨을 판단하거나 미래 수익률을 예측하는 데 사용하지 않는다."
+  },
+  "safe_response_rule": "특정 종목, ETF, 자산의 매수·매도·보유 판단이나 미래 수익률 예측이 아니라 경제 개념 설명과 학습 경로 추천에만 사용한다.",
+  "source": "FRED",
+  "doc_type": "data_connection",
+  "updated_at": "2026-05-24"
+}

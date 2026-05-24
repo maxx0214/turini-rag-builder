@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+
+data/vector_db/
+data/rag_docs/review_required/
+
+data/processed/fred_indicators.csv
+data/processed/yfinance_prices.csv
