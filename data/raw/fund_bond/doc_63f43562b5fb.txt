@@ -2,6 +2,7 @@ source_name: KCIE
 source_url: https://www.kcie.or.kr/guide/3/18/web_view?content_idx=518
 title: ETF 성공투자를 위해서는 꼭 알아두어야 할 용어들
 topic: fund
+subtopic: etf_basic
 published_date: 2019-07-05
 
 [출처 : 쩐神(신)의 귀환_주식 중에서]

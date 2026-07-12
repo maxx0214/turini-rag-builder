@@ -2,6 +2,7 @@ source_name: KCIE
 source_url: https://www.kcie.or.kr/yeouitv/deundeunWebBook/web_view?content_idx=2062&menu_idx=256
 title: 펀드와 ETF의 원금손실 위험과 분산투자
 topic: fund
+subtopic: fund_basic
 published_date: 2025-08-05
 
 펀드는 여러 사람들이 돈을 모아서 전문가(펀드매니저)가 대신 투자해 주는 거예요. 마치 반찬 가게에서 도시락을 사 먹는 것처럼, 전문가가 이미 잘 짜놓은 투자 메뉴를 선택 하는 거죠. 투자 초보자가 직접 종목을 고르기 어려운데, 경험 많은 펀드매니저가 시장 상황을 분석해서 투자해 주니까 믿고 시작해 보는 거예요. 그리고 적은 금액으로도 여러 종목에 분산투자 할 수 있어서 위험을 줄일 수 있어요. 위험을 줄일 수 있는 것이지 아예 없을 순 없어요. 투자는 아무도 결과를 확신할 수는 없거든요.

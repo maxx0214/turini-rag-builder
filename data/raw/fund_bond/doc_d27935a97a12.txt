@@ -2,6 +2,7 @@ source_name: KCIE
 source_url: https://www.kcie.or.kr/mobile/guide/2/25/web_view?content_idx=1149&series_idx=
 title: ETF와 ETN 차이
 topic: fund
+subtopic: etf_basic
 published_date: 2026-07-12
 
 E 로 시작되는 금융상품 중 자주 비교되는 것이 ETN 과 ETF 입니다 . ETN(Exchange Traded Note) 과 ETF(Exchange Traded Fund) 는 우리말로 각각 상장지수증권 , 상장지수펀드 라고 합니다 . Exchange Traded 는 시장에 상장되어 거래된다는 의미로 , ETN 은 시장에서 거래되는 증권 (Note), ETF 는 시장에서 거래되는 펀드(Fund)입니다. 이 둘이 자주 비교되는 이유는 증권과 펀드 안에 담고 있는 기초자산이 비슷한 경우가 많고 , 둘 다 주식처럼 시장에서 거래되고 있기 때문입니다 .

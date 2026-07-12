@@ -1,0 +1,54 @@
+source_name: SEC Investor.gov
+source_url: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read-2
+title: How to Read a Mutual Fund Prospectus Part 1
+topic: fund
+subtopic: prospectus
+published_date: 2016-06-13
+
+a Mutual Fund Prospectus (Part 1 of 3: Investment Objective, Strategies, and Risks)
+June 13, 2016
+Introduction
+Mutual funds use a document called a prospectus to disclose information about the fund to investors. The SEC requires mutual funds to include important information in the prospectus, including:
+the fund’s investment objectives or goals;
+its strategies for reaching those goals;
+the principal risks of investing in the fund;
+the fund’s fees and expenses; and
+its past performance.
+SEC rules require mutual funds to provide a copy of the fund’s prospectus before or with the delivery of fund shares to investors, but you can - and should - also request and read a prospectus before making an investment decision. You can obtain prospectuses from the SEC’s Electronic Data Gathering, Analysis, and Retrieval (“EDGAR”) database or directly from the fund (most funds provide their prospectus on their websites and also have toll free numbers where you can request a copy). Funds also may provide a “summary prospectus,” which is generally just a few pages long, but indicates where you can obtain the full prospectus.
+Investment Objective
+The investment objective of a fund frequently will be: (1) capital appreciation; (2) income; or (3) a combination of the two.
+Funds that seek capital appreciation primarily invest in assets the fund expects to increase in value.
+Funds that seek income primarily invest in securities that produce income, such as bonds that pay interest or securities that pay dividends.
+Funds that seek a combination of growth and income generally invest in equity securities that pay dividends or else invest in a mix of equity securities and bonds.
+Generally, funds that seek capital appreciation are considered a more aggressive investment strategy ( i.e. , have the potential for greater returns, but also the possibility of greater losses), while funds that seek income are considered a more conservative investment strategy.
+Principal Strategies
+The principal strategies of the fund tell you how the fund intends to achieve its investment objective. These strategies indicate the approach the fund’s adviser takes in deciding which securities to buy or sell. For example, the fund may choose to concentrate in one or more industries, geographic regions, or types of securities. In addition, some funds may be actively managed while others seek to replicate the performance of a specified index. Although a fund’s name often suggests that the fund focuses on a particular type of investment, you should not rely upon the fund’s name without examining the prospectus further.
+Some funds may also reserve the right to take a “temporary defensive position.” These funds may invest 100% of assets temporarily in cash or other relatively safe instruments in anticipation of a market downturn that could adversely affect fund performance, even if that would not normally be consistent with the fund’s primary investment strategy.
+Risks
+All investments in funds involve risk of financial loss. The reward for taking on risk is the potential for a greater investment return. An investor with a high-risk tolerance is generally willing to risk losing money in order to seek larger investment gains than those typically achieved by a lower-risk investment. On the other hand, an investor with a low-risk tolerance may favor investments in funds that are generally more stable in value.
+When reading a fund prospectus, it is important to determine if the fund satisfies your investment objective and matches your risk tolerance, as well as the risks in your overall portfolio. Your risk tolerance depends upon several factors, including your financial situation, age, and family obligations.
+The types of risks to which a fund is subject vary considerably with the nature of its investments. Some of the more common risks for funds include:
+Market risk. The fund may incur losses due to declines in the markets in which it invests.
+Business or Issuer risk. The fund may invest in a company that goes out of business, suffers financial problems, or otherwise does not perform as expected, especially if the fund primarily invests in companies without an established record.
+Credit risk. The fund may invest in bonds or other debt instruments from an issuer who is unable to pay interest payments as scheduled or repay the principal.
+Interest rate risk. The value of the fund’s investments in bonds or other debt instruments may decrease if interest rates rise.
+Inflation risk. The value of the fund’s investments in bonds or other debt instruments also may not keep track with price increases from inflation.
+Concentration risk. The fund may concentrate its investments in a particular industry, sector or geographical area, which can result in a less diversified portfolio that may be subject to greater volatility in performance than a fund that does not concentrate its investments.
+• How to Read a Mutual Fund Prospectus (Part 2 of 3) – Contains information about the fee table and performance.
+• How to Read a Mutual Fund Prospectus (Part 3 of 3) – Contains information about management, shareholder information, and the Statement of Additional Information.
+The Office of Investor Education and Advocacy has provided this information as a service to investors. It is neither a legal interpretation nor a statement of SEC policy. If you have questions concerning the meaning or application of a particular law or rule, please consult with an attorney who specializes in securities law.
+Featured Content Jumpstart Your Child's Financial Future Learn how to enroll in a Trump Account today! The "50 for 250" Challenge Become a more informed investor as we honor America's birthday! Can you get all 50 questions correct? Learn About Tax-Advantaged Accounts 401(k) plans, IRAs, HSAs, 529 plans, Trump Accounts, and others offer tax benefits. Use Financial Tools and Calculators Access RMD, compound interest and savings goal calculators plus other financial tools.
+Featured Content
+Jumpstart Your Child's Financial Future Learn how to enroll in a Trump Account today! The "50 for 250" Challenge Become a more informed investor as we honor America's birthday! Can you get all 50 questions correct? Learn About Tax-Advantaged Accounts 401(k) plans, IRAs, HSAs, 529 plans, Trump Accounts, and others offer tax benefits. Use Financial Tools and Calculators Access RMD, compound interest and savings goal calculators plus other financial tools.
+Jumpstart Your Child's Financial Future Learn how to enroll in a Trump Account today!
+Jumpstart Your Child's Financial Future
+Learn how to enroll in a Trump Account today!
+The "50 for 250" Challenge Become a more informed investor as we honor America's birthday! Can you get all 50 questions correct?
+The "50 for 250" Challenge
+Become a more informed investor as we honor America's birthday! Can you get all 50 questions correct?
+Learn About Tax-Advantaged Accounts 401(k) plans, IRAs, HSAs, 529 plans, Trump Accounts, and others offer tax benefits.
+Learn About Tax-Advantaged Accounts
+401(k) plans, IRAs, HSAs, 529 plans, Trump Accounts, and others offer tax benefits.
+Use Financial Tools and Calculators Access RMD, compound interest and savings goal calculators plus other financial tools.
+Use Financial Tools and Calculators
+Access RMD, compound interest and savings goal calculators plus other financial tools.

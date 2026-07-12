@@ -15,9 +15,14 @@ RAW_DIR = Path("data/raw/fund_bond")
 
 OUTPUT_JSONL_PATH = OUTPUT_DIR / "chunks_fund_bond.jsonl"
 OUTPUT_JSON_PATH = OUTPUT_DIR / "chunks_fund_bond.json"
+OUTPUT_FUND_JSONL_PATH = OUTPUT_DIR / "chunks_fund.jsonl"
+OUTPUT_FUND_JSON_PATH = OUTPUT_DIR / "chunks_fund.json"
+OUTPUT_BOND_JSONL_PATH = OUTPUT_DIR / "chunks_bond.jsonl"
+OUTPUT_BOND_JSON_PATH = OUTPUT_DIR / "chunks_bond.json"
 
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 100
+TOPIC_ORDER = {"fund": 0, "bond": 1}
 
 PUBLISHED_DATE = str(date.today())
 
@@ -36,6 +41,7 @@ SOURCES = [
         "source_url": "https://www.kcie.or.kr/guide/3/18/web_view?content_idx=518",
         "title": "ETF 성공투자를 위해서는 꼭 알아두어야 할 용어들",
         "topic": "fund",
+        "subtopic": "etf_basic",
         "published_date": "2019-07-05",
     },
     {
@@ -43,6 +49,7 @@ SOURCES = [
         "source_url": "https://www.kcie.or.kr/mobile/guide/2/25/web_view?content_idx=1149&series_idx=",
         "title": "ETF와 ETN 차이",
         "topic": "fund",
+        "subtopic": "etf_basic",
         "published_date": PUBLISHED_DATE,
     },
     {
@@ -50,6 +57,7 @@ SOURCES = [
         "source_url": "https://www.kcie.or.kr/yeouitv/deundeunWebBook/web_view?content_idx=2062&menu_idx=256",
         "title": "펀드와 ETF의 원금손실 위험과 분산투자",
         "topic": "fund",
+        "subtopic": "fund_basic",
         "published_date": "2025-08-05",
     },
     {
@@ -57,6 +65,7 @@ SOURCES = [
         "source_url": "https://eiec.kdi.re.kr/material/clickView.do?cidx=1670&click_yymm=201512",
         "title": "채권수익률과 가격결정",
         "topic": "bond",
+        "subtopic": "bond_price_yield",
         "published_date": "2015-12-01",
     },
     {
@@ -64,7 +73,104 @@ SOURCES = [
         "source_url": "https://sribond.krx.co.kr/contents/01/01010000/SRI01010000.jsp",
         "title": "ESG채권의 종류",
         "topic": "bond",
+        "subtopic": "bond_basic",
         "published_date": PUBLISHED_DATE,
+    },
+    {
+        "source_name": "KCIE",
+        "source_url": "https://www.kcie.or.kr/guide/3/17/web_view?content_idx=1252&series_idx=",
+        "title": "펀드 가입과 환매",
+        "topic": "fund",
+        "subtopic": "fund_redemption",
+        "published_date": "2021-04-30",
+    },
+    {
+        "source_name": "KCIE",
+        "source_url": "https://www.kcie.or.kr/guide/23/30/web_view?content_idx=513",
+        "title": "펀드 과세와 세금",
+        "topic": "fund",
+        "subtopic": "fund_tax_nav",
+        "published_date": "unknown",
+    },
+    {
+        "source_name": "SEC Investor.gov",
+        "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/mutual-funds",
+        "title": "Mutual Funds",
+        "topic": "fund",
+        "subtopic": "fund_basic",
+        "published_date": "unknown",
+    },
+    {
+        "source_name": "SEC Investor.gov",
+        "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-2",
+        "title": "Exchange-Traded Funds ETFs",
+        "topic": "fund",
+        "subtopic": "etf_basic",
+        "published_date": "unknown",
+    },
+    {
+        "source_name": "SEC Investor.gov",
+        "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/how-read-2",
+        "title": "How to Read a Mutual Fund Prospectus Part 1",
+        "topic": "fund",
+        "subtopic": "prospectus",
+        "published_date": "2016-06-13",
+    },
+    {
+        "source_name": "SEC Investor.gov",
+        "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/characteristics-mutual-funds-exchange-traded-funds",
+        "title": "Characteristics of Mutual Funds and Exchange-Traded Funds",
+        "topic": "fund",
+        "subtopic": "etf_vs_fund",
+        "published_date": "2025-04-29",
+    },
+    {
+        "source_name": "KDI",
+        "source_url": "https://eiec.kdi.re.kr/material/clickView.do?cidx=1099&click_yymm=201512",
+        "title": "채권 수익률은 어떻게 결정될까",
+        "topic": "bond",
+        "subtopic": "bond_price_yield",
+        "published_date": "2015-12-01",
+    },
+    {
+        "source_name": "KDI",
+        "source_url": "https://eiec.kdi.re.kr/material/ecoQueView.do?idx=3387",
+        "title": "채권 가격과 시장 이자율의 관계",
+        "topic": "bond",
+        "subtopic": "bond_rate",
+        "published_date": "unknown",
+    },
+    {
+        "source_name": "KOFIA",
+        "source_url": "https://law.kofia.or.kr/service/law/lawFullScreenContent.do?historySeq=601&seq=220",
+        "title": "단기금융간접투자기구 위험관리기준 표준안",
+        "topic": "bond",
+        "subtopic": "bond_risk",
+        "published_date": "unknown",
+    },
+    {
+        "source_name": "SEC Investor.gov",
+        "source_url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/bond-funds-and-income-funds",
+        "title": "Bond Funds and Income Funds",
+        "topic": "bond",
+        "subtopic": "bond_fund",
+        "published_date": "unknown",
+    },
+    {
+        "source_name": "SEC Investor.gov",
+        "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+        "title": "Bonds FAQs",
+        "topic": "bond",
+        "subtopic": "bond_basic",
+        "published_date": "unknown",
+    },
+    {
+        "source_name": "SEC Investor.gov",
+        "source_url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products",
+        "title": "Corporate Bonds",
+        "topic": "bond",
+        "subtopic": "corporate_bond",
+        "published_date": "unknown",
     },
 ]
 
@@ -80,6 +186,14 @@ REMOVE_SELECTORS = [
     "form",
     "button",
     "iframe",
+    "[role='navigation']",
+    ".usa-banner",
+    ".usa-header",
+    ".usa-footer",
+    ".usa-nav",
+    ".breadcrumb",
+    ".breadcrumbs",
+    ".social-media",
 ]
 
 
@@ -96,6 +210,12 @@ NOISE_PATTERNS = [
     r"목록",
     r"이전글",
     r"다음글",
+    r"첨부파일",
+    r"다운로드",
+    r"프린트",
+    r"관련자료",
+    r"\.PDF\b",
+    r"\bPDF\b",
     r"개인정보처리방침",
     r"저작권",
     r"Copyright",
@@ -109,6 +229,28 @@ NOISE_PATTERNS = [
     r"팝업 닫기",
     r"URL 복사",
     r"콘텐츠 만족도",
+    r"An official website of the United States government",
+    r"Here.?s how you know",
+    r"Official websites use \.gov",
+    r"Secure \.gov websites use HTTPS",
+    r"Investor\.gov",
+    r"\bSearch\b",
+    r"\bMenu\b",
+    r"\bBreadcrumb\b",
+    r"\bFacebook\b",
+    r"\bTwitter\b",
+    r"\bLinkedIn\b",
+    r"\bEmail\b",
+    r"\bPrint\b",
+    r"\bUpdated\b",
+    r"\bModified\b",
+    r"Related Information",
+    r"Additional Resources",
+    r"Site Information",
+    r"\bPrivacy\b",
+    r"\bFOIA\b",
+    r"No FEAR Act",
+    r"USA\.gov",
 ]
 
 
@@ -166,12 +308,31 @@ ARTICLE_START_PATTERNS = [
     r"E\s*로 시작되는 금융상품",
     r"펀드\s*는",
     r"펀드란",
+    r"환매",
+    r"기준가격",
+    r"과표기준가",
+    r"A mutual fund",
+    r"Mutual funds",
+    r"An ETF",
+    r"ETFs pool money",
+    r"Mutual funds use a document called a prospectus",
     r"채권\s*은",
     r"채권수익률",
     r"채권의 가격",
+    r"채권 가격",
+    r"시장 이자율",
+    r"금리위험",
+    r"신용위험",
+    r"유동성위험",
     r"ESG채권이란\?",
     r"ESG채권\s*은",
     r"녹색채권",
+    r"Bond funds",
+    r"A bond is",
+    r"What are bonds",
+    r"A bond is a debt obligation",
+    r"Investors who buy corporate bonds",
+    r"지난 뉴스 한 토막",
 ]
 
 
@@ -189,6 +350,13 @@ ARTICLE_END_PATTERNS = [
     r"콘텐츠 만족도",
     r"이전글",
     r"다음글",
+    r"Related Information",
+    r"Additional Resources",
+    r"Return to Top",
+    r"More information",
+    r"About Investor\.gov",
+    r"Site Information",
+    r"Privacy and Security Policy",
 ]
 
 
@@ -464,6 +632,7 @@ def save_raw_text(doc_id: str, source: dict, title: str, text: str):
         f"source_url: {source['source_url']}",
         f"title: {title}",
         f"topic: {source['topic']}",
+        f"subtopic: {source.get('subtopic', '')}",
         f"published_date: {source['published_date']}",
         "",
         text,
@@ -496,6 +665,7 @@ def crawl_source(source: dict):
         "source_url": source_url,
         "title": fallback_title,
         "topic": source["topic"],
+        "subtopic": source.get("subtopic", ""),
         "published_date": source["published_date"],
         "text": text,
     }
@@ -531,6 +701,7 @@ def build_chunks(docs):
                 "source_url": doc["source_url"],
                 "title": doc["title"],
                 "topic": doc["topic"],
+                "subtopic": doc.get("subtopic", ""),
                 "published_date": doc["published_date"],
                 "text": text,
                 "embedding_text": f"{doc['title']}\n\n{text}",
@@ -542,35 +713,52 @@ def build_chunks(docs):
     return rows
 
 
-def save_jsonl(rows):
+def order_docs_by_topic(docs):
+    indexed_docs = list(enumerate(docs))
+    indexed_docs.sort(
+        key=lambda item: (
+            TOPIC_ORDER.get(item[1].get("topic"), len(TOPIC_ORDER)),
+            item[0],
+        )
+    )
+    return [doc for _, doc in indexed_docs]
+
+
+def save_jsonl(rows, path):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(OUTPUT_JSONL_PATH, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8") as f:
         for row in rows:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
-def save_json(rows):
+def save_json(rows, path):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)
 
 
-def print_stats(docs, chunks):
+def print_stats(docs, chunks, fund_chunks, bond_chunks, failed_sources):
     print("\n== crawl complete ==")
     print(f"문서 수: {len(docs)}")
-    print(f"청크 수: {len(chunks)}")
-    print(f"JSONL: {OUTPUT_JSONL_PATH}")
-    print(f"JSON: {OUTPUT_JSON_PATH}")
+    print(f"크롤링 실패 수: {len(failed_sources)}")
+    print(f"전체 청크 수: {len(chunks)}")
+    print(f"fund 청크 수: {len(fund_chunks)}")
+    print(f"bond 청크 수: {len(bond_chunks)}")
     print(f"RAW: {RAW_DIR}")
 
     topic_count = {}
     source_count = {}
+    source_url_count = {}
+    subtopic_count = {}
 
     for row in chunks:
         topic_count[row["topic"]] = topic_count.get(row["topic"], 0) + 1
         source_count[row["source_name"]] = source_count.get(row["source_name"], 0) + 1
+        source_url_count[row["source_url"]] = source_url_count.get(row["source_url"], 0) + 1
+        subtopic = row.get("subtopic", "")
+        subtopic_count[subtopic] = subtopic_count.get(subtopic, 0) + 1
 
     print("\nTopic별 청크 수:")
     for topic, count in sorted(topic_count.items()):
@@ -580,6 +768,32 @@ def print_stats(docs, chunks):
     for source_name, count in sorted(source_count.items()):
         print(f"- {source_name}: {count}")
 
+    print("\nSource URL별 청크 수:")
+    for source_url, count in sorted(source_url_count.items()):
+        print(f"- {source_url}: {count}")
+
+    print("\nSubtopic별 청크 수:")
+    for subtopic, count in sorted(subtopic_count.items()):
+        print(f"- {subtopic}: {count}")
+
+    if failed_sources:
+        print("\n크롤링 실패 URL:")
+        for failed in failed_sources:
+            print(f"- {failed['source_url']} ({failed['error_type']}: {failed['error']})")
+    else:
+        print("\n크롤링 실패 URL: 없음")
+
+    print("\n저장된 파일:")
+    for path in [
+        OUTPUT_JSONL_PATH,
+        OUTPUT_JSON_PATH,
+        OUTPUT_FUND_JSONL_PATH,
+        OUTPUT_FUND_JSON_PATH,
+        OUTPUT_BOND_JSONL_PATH,
+        OUTPUT_BOND_JSON_PATH,
+    ]:
+        print(f"- {path}")
+
     if chunks:
         print("\n첫 번째 청크 예시:")
         print(json.dumps(chunks[0], ensure_ascii=False, indent=2))
@@ -587,6 +801,7 @@ def print_stats(docs, chunks):
 
 def main():
     docs = []
+    failed_sources = []
 
     for source in SOURCES:
         try:
@@ -596,18 +811,33 @@ def main():
         except Exception as e:
             print(f"[error] crawl failed: {source['source_url']}")
             print(f"        {type(e).__name__}: {e}")
+            failed_sources.append(
+                {
+                    "source_url": source["source_url"],
+                    "error_type": type(e).__name__,
+                    "error": str(e),
+                }
+            )
 
     if not docs:
         raise RuntimeError("크롤링에 성공한 문서가 없습니다.")
 
-    chunks = build_chunks(docs)
+    ordered_docs = order_docs_by_topic(docs)
+    chunks = build_chunks(ordered_docs)
 
     if not chunks:
         raise RuntimeError("생성된 청크가 없습니다.")
 
-    save_jsonl(chunks)
-    save_json(chunks)
-    print_stats(docs, chunks)
+    fund_chunks = [row for row in chunks if row.get("topic") == "fund"]
+    bond_chunks = [row for row in chunks if row.get("topic") == "bond"]
+
+    save_jsonl(chunks, OUTPUT_JSONL_PATH)
+    save_json(chunks, OUTPUT_JSON_PATH)
+    save_jsonl(fund_chunks, OUTPUT_FUND_JSONL_PATH)
+    save_json(fund_chunks, OUTPUT_FUND_JSON_PATH)
+    save_jsonl(bond_chunks, OUTPUT_BOND_JSONL_PATH)
+    save_json(bond_chunks, OUTPUT_BOND_JSON_PATH)
+    print_stats(docs, chunks, fund_chunks, bond_chunks, failed_sources)
 
 
 if __name__ == "__main__":
